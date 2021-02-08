@@ -336,6 +336,48 @@
           <use href="./img/symbol-defs.svg#icon-close-modal"></use>
         </svg>
       </button>
+      <form name="modal-form" class="modal-form">
+        <p class="form-title">Оставьте свои данные, мы вам перезвоним</p>
+        <div class="form-field">
+            <label for="name">Имя</label>
+                <div class="modal-input">
+                    <input type="text" name="user-name" id="name" />
+                    <svg width="18px" height="18px" class="modal-svg">
+                    <use href="./img/symbol-defs.svg#icon-person-black"></use>
+                    </svg>
+                </div>
+        </div>
+        <div class="form-field">
+            <label for="tel">Телефон</label>
+                <div class="modal-input">
+                    <input type="tel" name="phone_number" id="tel" />
+                    <svg width="18px" height="18px" class="modal-svg">
+                    <use href="./img/symbol-defs.svg#icon-phone-black"></use>
+                    </svg>
+                </div>
+        </div> 
+        <div class="form-field">
+            <label for="mail">Почта</label>
+                <div class="modal-input">
+                    <input type="email" name="email" id="mail" />
+                    <svg width="18px" height="18px" class="modal-svg">
+                    <use href="./img/symbol-defs.svg#icon-new-mail"></use>
+                    </svg>
+                </div>
+        </div>
+        <div class="form-field">
+            <label for="comment">Комментарий</label>
+            <textarea name="comment" rows="6" id="comment" placeholder="Введите текст"></textarea>
+        </div> 
+        <div class="topic-options">
+            <label class="checkbox-label">
+                <input type="checkbox" name="policy" class="old-checkbox">
+                <span class="topic-svg"></span>Соглашаюсь с рассылкой и принимаю
+                <a class="checkbox-link" href="./index.html">Условия договора</a>
+            </label>
+        </div>
+            <button type="submit" class="form-button">Отправить</button>
+    </form>
   </div>
 </div>
 <script src="./js/modal.js"></script>
