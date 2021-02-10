@@ -549,8 +549,17 @@ body{
   transform: translateY(50%);
   fill: var(--body-background-color);
 }
+/*
 .checkbox-link {
   text-decoration-skip-ink: none;
+}
+*/
+.checkbox-link,
+.checkbox-link:active,
+.checkbox-link:hover,
+.checkbox-link:visited {
+  text-decoration: underline;
+  color: var(--hover-text-color);
 }
 .old-checkbox:checked + .topic-svg {
   background-color: var(--hover-text-color);
