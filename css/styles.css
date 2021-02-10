@@ -547,15 +547,12 @@ body{
 }
 .old-checkbox:checked + .topic-svg {
   background-color: var(--hover-text-color);
-  background-image: url(../img/icon_check.svg);
+  background-image: url(../img/icon-check.svg);
   background-size: contain;
   background-origin: border-box;
   border-color: transparent;
 }
 .form-button {
-  background-color: var(--hover-text-color);
-  color: var(--body-background-color);
-
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -570,6 +567,9 @@ body{
   cursor: pointer;
   border: 1px solid transparent;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+  background-color: var(--hover-text-color);
+  color: var(--body-background-color);
 }
 
 
