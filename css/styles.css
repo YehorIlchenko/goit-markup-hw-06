@@ -385,18 +385,23 @@ body{
 }
 .modal-button-close {
   position: absolute;
-
-  top: 8px;
+  padding: 0;
   right: 8px;
-
+  top: 8px;
   width: 30px;
   height: 30px;
-  border-radius: 50%;
-
-  cursor: pointer;
+  background: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  background-color: #ffffff;
+  border-radius: 50%;
+  font-size: 0;
+  cursor: pointer;
 }
+  
+.modal-button-close:hover,
+.modal-button-close:focus {
+  fill: var(--hover-text-color);
+}
+
 .icon-close-modal {
   display: block;
   margin-left: auto;
