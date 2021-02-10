@@ -497,7 +497,7 @@ body{
   letter-spacing: 0.01em;
 
   margin-bottom: 4px;
-  color: var(--primary-text-color);
+  color: var(--text-grey-color);
 }
 
 .topic-options {
@@ -514,7 +514,7 @@ body{
 
   letter-spacing: 0.03em;
 
-  color: var(--primary-text-color);
+  color: var(--text-grey-color);
 }
 .old-checkbox {
   position: absolute;
@@ -540,21 +540,21 @@ body{
   border-radius: 3px;
   cursor: pointer;
   transform: translateY(50%);
-  fill: var(--primary-bg-color);
+  fill: var(--body-background-color);
 }
 .checkbox-link {
   text-decoration-skip-ink: none;
 }
 .old-checkbox:checked + .topic-svg {
-  background-color: var(--accent-color);
+  background-color: var(--hover-text-color);
   background-image: url(../img/icon_check_new.svg);
   background-size: contain;
   background-origin: border-box;
   border-color: transparent;
 }
 .form-button {
-  background-color: var(--accent-color);
-  color: var(--primary-bg-color);
+  background-color: var(--hover-text-color);
+  color: var(--body-background-color);
 
   font-weight: 700;
   font-size: 16px;
