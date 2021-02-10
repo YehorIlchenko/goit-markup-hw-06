@@ -406,7 +406,7 @@ body{
 }
 .icon-close-modal:hover,
 .icon-close-modal:focus {
-  fill: var(--accent-color);
+  fill: var(--hover-text-color);
 }
 
 .modal-form {
@@ -423,7 +423,7 @@ body{
   letter-spacing: 0.03em;
 
   padding-bottom: 12px;
-  color: var(--title-text-color);
+  color: var(--text-black-color);
 }
 .form-field {
   display: flex;
@@ -503,6 +503,8 @@ body{
 .topic-options {
   padding-bottom: 30px;
 }
+
+/*чекбокс*/
 .checkbox-label {
   position: relative;
   padding-left: 24px;
