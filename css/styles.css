@@ -547,7 +547,7 @@ body{
 }
 .old-checkbox:checked + .topic-svg {
   background-color: var(--hover-text-color);
-  background-image: url(../img/icon_check_new.svg);
+  background-image: url(../img/icon_check.svg);
   background-size: contain;
   background-origin: border-box;
   border-color: transparent;
